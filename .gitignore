@@ -1,0 +1,21 @@
+# Visual Studio / compilados
+bin/
+obj/
+*.user
+*.suo
+*.vcxproj.user
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Ignorar ejecutable (evita subirlo por accidente)
+logharvester.exe
+
+# Ignorar paquetes / entornos (si aplicara)
+node_modules/
+venv/
